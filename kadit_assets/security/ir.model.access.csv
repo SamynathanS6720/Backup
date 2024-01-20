@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_kadit_asset,access.kadit.asset,model_hospital_patient,,1,0,0,0
+access_kadit_asset,access.kadit.asset,model_hospital_patient,group_asset_manager,1,1,1,1
+access_kadit_asset,access.kadit.asset,model_hospital_patient,group_asset_user,1,1,0,0
