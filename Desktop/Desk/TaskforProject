@@ -1,0 +1,112 @@
+By developing the Event Management System, you will gain practical experience in building a complex web application that incorporates frontend (Nuxt.js, Vue.js), backend (GraphQL, Node.js, PostgreSQL), user authentication, payment integration, event management, and social media integration. Setting up CI/CD with Jenkins, deploying the application on Kubernetes, and monitoring performance with New Relic will provide valuable insights into the development and deployment lifecycle.
+
+
+To build the Event Management System using Nuxt.js, Vue.js, GraphQL, Node.js, PostgreSQL, Jenkins, and Kubernetes (K8s), you can follow these general steps:
+
+Project Setup:
+1. Set up a development environment with Node.js and a code editor of your choice.
+2. Create a new Nuxt.js project using the Nuxt CLI.
+3. Install and configure PostgreSQL for the database.
+
+Frontend Development:
+1. Design the user interface using Vue.js and Nuxt.js components.
+2. Implement pages for user registration, login, event listing, event details, and     event creation.
+3. Use Nuxt.js plugins to handle API calls to the backend.
+
+Backend Development:
+1. Set up a Node.js server using a framework Apollo Server.
+2. Define GraphQL schemas and resolvers to handle data requests and mutations.
+3. Implement CRUD (Create, Read, Update, Delete) operations for events, users, and registrations.
+4. Connect to the PostgreSQL database using an appropriate library (e.g., Knex.js or Sequelize).
+
+Project Setup:
+Set up a development environment with Node.js and a code editor of your choice.
+Create a new Nuxt.js project using the Nuxt CLI.
+Install and configure PostgreSQL for the database.
+
+Frontend Development:
+Design the user interface using Vue.js and Nuxt.js components.
+Implement pages for user registration, login, event listing, event details, and event creation.
+Use Nuxt.js plugins to handle API calls to the backend.
+
+Backend Development:
+Set up a Node.js server using a framework like Express.js or Apollo Server.
+Define GraphQL schemas and resolvers to handle data requests and mutations.
+Implement CRUD (Create, Read, Update, Delete) operations for events, users, and registrations.
+Connect to the PostgreSQL database using an appropriate library (e.g., Knex.js or Sequelize).
+
+Authentication and Authorization:
+Implement user authentication using JWT (JSON Web Tokens) or another authentication mechanism.
+Create middleware to authenticate and authorize requests to protected routes.
+
+Integration with GraphQL:
+Set up a GraphQL server to handle queries and mutations.
+Define the GraphQL types and resolvers to interact with the database.
+Implement GraphQL endpoints to fetch and manipulate event data.
+
+CI/CD with Jenkins:
+Install and configure Jenkins on a server or use a Jenkins CI/CD platform.
+Set up a Jenkins pipeline to automate the build, test, and deployment processes.
+Configure the pipeline stages to trigger builds on code changes and run tests.
+Define deployment steps to deploy the application to a staging or production environment.
+
+Deployment with Kubernetes (K8s):
+Set up a Kubernetes cluster (locally or on a cloud provider).
+Create Kubernetes deployment files (YAML) to define the application's pods, services, and configurations.
+Use Kubernetes manifests to define environment variables, secrets, and volume mounts.
+Deploy the application to the Kubernetes cluster using the kubectl command or a deployment tool like Helm.
+
+Performance Monitoring with New Relic:
+Sign up for a New Relic account and obtain the necessary API keys.
+Install the New Relic agent or SDK in the backend Node.js server to collect performance data.
+Configure New Relic to monitor key metrics like response times, error rates, and resource usage.
+Set up alerts and notifications for critical events or performance thresholds.
+
+Testing and Refinement:
+Write unit tests and integration tests for both the frontend and backend.
+Run automated tests as part of the Jenkins pipeline.
+Continuously monitor and refine the application based on user feedback and performance metrics.
+
+Iterate and Improve:
+Collect user feedback and iterate on the features and user experience.
+Continuously enhance and optimize the application based on the feedback received.
+Regularly update dependencies and ensure the application is secure and up to date.
+
+
+
+Key Features:
+User Registration and Authentication: Users can create accounts, log in, and manage their profiles. Registration can be done through email or social media authentication.
+Event Creation: Event organizers can create new events by providing details such as event title, description, date, time, location, ticket pricing, and event categories/tags. They can also upload event images or banners.
+Event Listing and Search: The application provides a listing of upcoming events, allowing users to browse events based on categories, date, location, or keywords. Users can search for events using filters and sorting options.
+Event Registration and Ticketing: Users can register for events and purchase event tickets directly from the application. They can choose ticket types, quantity, and make payments securely. Registered attendees receive confirmation emails and digital tickets.
+Event Details and Management: Each event has a dedicated page displaying event details, including description, schedule, location map, speakers/performers, and sponsor information. Event organizers can manage attendee lists, track ticket sales, and send event updates or notifications.
+Event Promotion and Sharing: The application provides social sharing features, allowing users to promote events on various social media platforms. Integration with social media APIs enables attendees to share event details and invite others to join.
+Comment and Discussion: Users can engage in discussions related to specific events by commenting on event pages. This fosters community interaction and allows attendees to ask questions or share their experiences.
+Dashboard for Organizers: Event organizers have access to a dedicated dashboard where they can manage their events, track registrations, view attendee analytics, and generate reports.
+Optional Enhancements:
+Event Categories and Tags: Implement a tagging system to categorize events for easy search and filtering.
+Event Recommendations: Utilize machine learning algorithms to provide personalized event recommendations based on user preferences and past event attendance.
+Event Ratings and Reviews: Allow users to rate and review events they have attended, providing feedback to organizers and helping future attendees make informed decisions.
+Event Reminders and Notifications: Send automated reminders and notifications to registered attendees regarding event updates, schedule changes, or important announcements.
+Event Analytics: Integrate analytics tools to track event metrics like ticket sales, attendance rate, engagement levels, and conversion rates. Generate reports and insights to help organizers optimize future events.
+
+
+
+
+We need to come up with one end to end framework.
+Role for each person & Responsibilities
+Develop &Monitor the work
+
+Data - We can add it later in RoadMap
+Name the Project - ??
+No of Resources - ??
+Role & Responsibility - ??
+Timeline - ??
+
+Kaliraj C, Thu 9:25 PM
+Create Github repository for all KADIT stuffs
+Cloud machines to buy(Check the cost feasbility)
+
+Kaliraj C, Thu 9:28 PM
+Difference between GitLab/GitHub/BitBucket
+

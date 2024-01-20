@@ -1,0 +1,17 @@
+Docker jenkins 
+
+
+sudo usermod -aG docker jenkins
+
+
+
+sudo service jenkins restart
+
+sudo systemctl status docker
+
+sudo systemctl start docker
+
+sudo chmod 666 /var/run/docker.sock
+sudo chown jenkins:jenkins /var/run/docker.sock
+
+sudo service jenkins restart

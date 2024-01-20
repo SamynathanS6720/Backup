@@ -1,0 +1,395 @@
+Update for 03/13/2023,
+
+1. Explored AWS Beanstalk and CodeStar. ( 3 hours )
+2. Created Beanstalk Environment for the Web Page ( 2 hours )
+3. Created and runned CodeBuild succeffuly ( 2 hour )
+4. Worked with Sumaiha in Date Automastion in Snowflake ( 1 hour )
+
+
+
+Update for 04/13/2023,
+
+1. Created the code Pipeline for Python project with Codestar ( 4 hours )
+2. Explored AWS Roles, Users, Groups and Policies ( 1 hour ) 
+3. Communication Class ( 1 hour )
+
+Update for 04/15/2023,
+
+1. Tried to build a code in AWS code Build, got a error in script so build got failed
+   learning and doing hands on in scripting. ( 4 hours )
+2. Created the code Pipeline for sample java project with Codestar, It create a pipeline with all the set-up, explored the scripts and code in this pipeline. ( 3 hours )
+3. Biweekly call ( 20 mins )
+
+
+Update for 03/16/2023,
+
+1. Created a sample Maven project with sample login JSP file and War file. ( 3 hours )
+2. Depolyed the Maven war file to the Apache-Tomcat server in localhost/8080 port ( 2 hours )
+3. Created the AWS user and policies to connect vscode to AWS console and installed terraform in EC2 instance ( 1 hour ) 
+4. Complete one tutorial video to create a sample Terraform Script and done some hands-on in it ( 2 hours )
+
+Update for 03/17/2023,
+
+1. Created a EC2 environment with the Terraform script in AWS EC2 instance ( 4 hours ) 
+2. Installed the Maven and Tomcat in the EC2 instance and created a Maven project and generated jar file ( 4 hours )
+3. Next step is to Host the wep-app in server
+
+Update on 03/20/2023,
+
+1. Started tomcat server on Linux EC2 instance and hosted server on website.
+Here I gained knowledge in many Linux commands (3 hours).
+2. Created a sample shell script to setup Java and Tomcat on an EC2 instance.
+(Java installed successfully using script and Tomcat installation got some error) (4 hours)
+3. Watched two youtube videos to deploy jar file on EC2 to Tomcat server (1 hour)  
+
+update for 03/21/2023,
+
+1. Explained and Supported with Iyyammal and Mahalakshmi to create a Organization and User fields in Zendesk And discussed the use cases for the requirements. ( 3 hours )
+2. Created S3 bucket to set a target destination for code deployment  and create code deployment application , deployment group and deployment. ( 4 hours ) 
+3. working in the shell script to automate the deployment ( in progress ) ( 1 hours )
+4. Syc-up ( 30 mins )   
+
+Update for 03/22/2023,
+
+1. Installed CodeDeployment applications in the target EC2 instance. 
+    Successfully installed the CodeDeployment application in the existing EC2 instanse
+    But got the error when tried to setup CodeDeployment application in new EC2 instance 
+    ( 4 hours ) 
+2. Created the EC2 instance, S3 bucket, CodeDeployment group and user roles in the New AWS trail account. ( 3 hours ) 
+    ( Old Trail account may be suspended with in the week ) 
+3. Working in CodeBuild for codepiple ( inprogress ) ( 1 hours )
+
+
+Update for 03/23/2023,
+
+1. Explored and created a demo model of Azure DevOps and Zendesk integration. ( 4 Hours ) 
+2. Setup CodeDeployment agent in new EC2 instance and created Deployment application with that Instance ( 2 hours )
+3. Created Code build for the web application, but Codebuild failed to build an application ( Inprograss ) ( 2 hours )
+4. Syncup with Madhu regarding Azure DevOps and Zendesk integration ( 30 mins ) 
+
+Update for 03/24/2023,
+
+1. I have tried to create build project and codedeploy in new trial account but it getting failed to build and deploy, ( 6 Hours )
+   I tried following steps to trubleshoot this issue but still getting failed, 
+	a, I made changes in script and then recreate the deployement, 
+   	b, Then uninstalled and reinstall the deploy agent in target EC2 instance 
+   	c, After this I tried to create new user and role to deploy, I gave the AdministratorAccess to that user and use that user role in deployment
+   	d, Also I tried in different region to create deploy. that also getting failed
+2. Watched three youtube tutorial videos to trubleshot this issue ( 2 hours )
+
+
+Update for 03/27/2023,
+
+1. I have created Instance, CodeDeploy applications, S3 bucket, Code Build and Code pipeline with failed version, that is the one of the Cause for the Unsucessfull deployment, 
+so I have checked and removed the unwanted resource created in the different regions. ( 1 hour )
+2. Umar asked me to make some changes in the deployment script, I have worked in that changes and created deployment applicatin deployment is created succefully. ( 4 hours )
+3. Disscusion and Knowladge transfer session about DevOps with Umar and Preeti. ( 2 hours 30 mins )
+4. Worked on Buildspec and appspec script file for
+
+
+Update for 03/28/2023,
+
+1. Worked with Umar to create a pipeline with "Source -> Codebuild -> CodeDeploy". CodeBuild has limits in terail account so we looking for alternate procedure. ( 3 hours )
+2. Created separeate script to deploy and setup the applications in instance. ( 3 hours )
+3. Created multiple EC2 and configured Code-Deploy agent. ( 1 hours )
+4. Communication Class ( 1 hour )
+
+Update for 03/29/2023,
+
+1. Worked on Jenkins to create a build and Code pipeline with the GitHub repository. ( 4 hours )
+2. Created new Code build with different configurations to build without error. ( 3 hours )
+3. Setup new EC2 instance for Code-deploy-agent. ( 45 mins )
+4. Bi-Weekly sycn-up ( 30 mins )
+
+
+Update for 03/30/2023,
+
+1. Created the working pipeline, The Maven project from GitHub is depolyed in the server and we can see the project using below link. This link show the sample login page.
+   ( http://ec2-3-25-221-191.ap-southeast-2.compute.amazonaws.com:8080/helloworld/ ) ( 5 hours )
+2. Started working on Terraform, to automate the Infra creatation during the pipeline excution ( 3 hours ) 
+3. Addented KT session about Git and GitHub by Iyyammal ( 30 mins )
+
+Update for 04/04/2023,
+
+1. Created the required codedeployment application, deployment group , deployement and EC2 instance using terrafrom, all the required configurations are automated ( 3 hours )
+2. Created sample pipeline with terraform, pipeline got failed because of the wrong credentials, working on this ( 2 hours 30 mins )
+3. Explored Jitterbit trail account ( 2 hours )
+4. Sync-up with Madhu ( 30 mins )
+
+Update for 04/05/2023,
+
+1. Worked on intgrete Crossplane with AWS EKS ( Elastic Kubernetes Service ). ( 6 hours )
+	Installed Kupernetties, helm , Docker and Crossplane in the EC instance
+	Created EKS cluster and tried to connect the cluster to EC2, in that we got some configuration error. Myself and Umar working on it
+2. Worked on jitterbit App Build, creating a App using App build ( Inprogress ) ( 1 hour )
+3. Prepared for the Pipeline Demo ( 1 hour ) 
+
+
+Update for 04/10/2023,
+
+1. Working Kubernetes Cluster, creating a Master Cluster to integrate crossplane, but we got the following errors in this and troubleshooting the errors. ( 5 hours )
+     AWS provider version not supported error,
+     "error: exec plugin: invalid apiVersion "client.authentication.k8s.io/v1alpha1",
+     Needed to logged in to server
+     Access privilege error
+2. Connected with Anbu regarding the Errors and work Status, he gave some alternatives to resolve these errors.( 30 mins ).
+3. Watched Two youtube videos for the Cluster creation ( 45 mins )
+
+Two hour Permission due to personal reasons ( 2 hours )
+
+
+Update for 04/10/2023,
+
+1. Created EKS cluster using "eksctl" as per Umar research, this created cluster with all the needed privileges, using this we troubleshooted the Access privilege error.( 2 hours )
+2. Configured the AWS latest version 2.7 in system, this provide the configurations and cluster connection plugins. from this resolved Cluster connect error, CRD not installed error and  
+   "error: exec plugin: invalid apiVersion "client.authentication.k8s.io/v1alpha1". ( 3 hours )
+3. Successfully Connected EKS cluster to the instance and created IAM role and s3 bucket using crossplane and doing hands-on in other functionality in CrossPlane. ( 3 hours )
+
+
+Update for 11/04/2023,
+
+1. Working on a Control plane to monitor the EKS cluster. Doing hands-on to understand the workflow of the crossplane.Continuously working to create a control plane for the EKS Cluster. ( 5 hours )
+2. Watched two tutorial videos to create resources with crossplane. ( 1 hour )
+3. Created ppt for DevOps KT Session ( 1 hour )
+4. DevOps knowledge Transfer Session ( 1 hour )
+
+
+Update for 04/12/2023,
+
+1. Exploring and doing hands-on in Cluster-claim. ( 4 hours )
+2. Creating and working on different cluster for more understanding ( 4 hours )
+3. Syn-up call with Madhu ( 20 mins )
+
+
+Update for 04/13/2023,
+
+1. Working on  different image file to deploy application in contaioners using Dockers. ( 5 hours )
+2. Exploring the Containerize Database and RDS feature for Database implementation ( 2 hours ) 
+3. Worked on terraform to create a automated infra creation in code pipeline ( 1 hour )
+
+Update for 04/17/2023,
+
+1. Created a Docker Image with html webpage in the local machine and ran the Image in the Docker Container, it runs successfully in the local machine and can see the webpage in the local machine. ( 5 hours )
+2. Done the same in the AWS linux instance, Successfully ran the image in the container, but it didn't come in the server IP, because of IP access issues. ( 2 hours )
+3. Working on Deploying these containers into the Kubernetes cluster.  ( 1 hour )
+
+
+Update for 04/18/2023,
+
+1. Exploring the procedure to build and deploy docker containers and images into the Cluster and AWS ECR ( Elastic Container Service ) ( 2 hours )
+2. Exploring the ReactJS, NodeJS, AngularJS and Typescript. Doing hands-on in JS sample application. ( 5 hours )
+3. Attended Git & GitHub KT ( 30 mins )
+
+Update for 04/19/2023,
+
+1. Explored about ArgoCD and working on GitOps pipeline. Created the Docker image and build the image in Self hosted instance. ( 4 hours )
+2. Exploring on Javascript and React application usecases and working to recreate on application ( 3 hours )
+3. Supported with Iyyammal and Maha for Azure and Zendesk integration ( 20 mins ) and Call with Madhu & team for same ( 30 mins )
+
+Update for 04/21/2023,
+
+1. Working in the GitOps pipeline, to store the docker image to AWS ECR and ECS, using GitHUb action to do the process but I got a AWS access error, troubleshooting the error. ( 4 hours )
+2. Doing hands-on in React Class, Components, render html, arrays and froms seperately ( 4 hours )
+
+Update for 04/24/2023,
+
+1. Created pipeline to build a docker image and push the image into AWS ECR, whenever the changes made in the repository. ( 4 hours )
+2. Working on the Cluster to implement the ArgoCD in the management cluster. ( 2 hours )
+3. Exploring Reactjs and Angularjs differences. ( 2 hours )
+
+Update for 04/25/2023,
+
+1. Supported Maha and Iyyammal to document the Audit requirement. ( 2 hour 30 mins )
+2. Audit Workflow discussion with Madhu. ( 30 mins )
+3. Created a sample react application in a local machine and implemented the functions in it. ( 3 hours )
+4. Exploring ReactJS docker implementation (  2 hours )
+war file 
+
+Update for 04/27/2023,
+
+1. Created a cluster and Successfully runned the Docker image in the cluster. It's working good. ( 4 hours )
+2. Connected the EKS Cluster to the new relic account. It successfully connected. but didn't pull the all nodes in the cluster. Currently working in this. ( 2 hours )
+3. Created Class and components in the react application and used that compunent in the application, also working on other function. ( 2 hours )   
+
+Update for 04/28/2023,
+
+1. Working on the Sample react Application and push the application to github, then run the application in host server( Manul Deployment ). ( 6 hours )
+2. Creating the pipeline to impement ArgoCD in EKS cluster. ( 2 hours )
+
+
+To Do list for today ( 05/01/2023 ),
+
+1. Modifiy the Sample react Application and deploy that into Docker file, then run the Docker image in the EKS cluster 
+2. Create the Deployment files to create a infra for the cluster, Then will integrate the ArgoCD to the Cluster
+
+Update for 05/01/2023,
+
+1. Successfully installed ArgoCD in the Cluster. Next working in the GitOps pipeline ( 5 Hours )
+2. Create Docker Image for React application. Making changes in Deployment script to deploy the yaml from GitHub to Cluster ( 3 hours )
+
+Update for 05/02/2023,
+
+1. Designed the Setup to integrate the ArgoCD to the Git Repo.( 3 hours )
+2. Working on the deployment script to deploy the application image from ECR to Cluster. ( 3 hours )
+3. Supported Iyyammal and Maha to create Audit workflow PPT. ( 2 hours )
+
+Update for 05/03/2023,
+
+1. Application deployed to the Cluster successfully, but got some bugs in integrating application to the argocd. find out the bug, that AgorCD application can't get the react application namespace, troubleshooting this issue. ( 6 hours )
+2. Created a new react application docker image. ( 1 hour )
+3. Bi-weekly sync-up ( 1 hour )
+
+Update for 05/05/2023,
+
+1. ArgoCd Application successfully runs in the cluster namespace and connects to the github.then make changes in the repository to test the deployment in the cluster. it does not reflect the changes in the cluster. This works well till building an image and store in the ECR, after that it does not reflect the changes. Still working on it. ( 7 hours )
+2. Watched youtube hands-on videos to achieve this use case. ( 1 hour )
+
+Update for 05/08/2023,
+
+1. Due to AWS account suspension, Installed and set up the Docker, Kubernetes and other dependencies in the local machine. Runned Docker Images and container application in that. ( 6 hours )
+2. Created ArgoCD introduction PPT ( 2 hours )
+
+Update for 05/09/2023,
+
+1. Created the clusters, namespaces and pods for the application in the local machine cluster. ( 3 hours )
+2. Installed and set up the ArgoCD in the local cluster. But got issued to install the ArgoCD CLI in the local machine. Troubleshooting this issue.( 4 hours )
+3. Try to implement the same in the Ubuntu Virtual Box VMware. It makes the system slow, so I hold that process. ( 1 hours )
+
+
+Update for ( 15/05/2023 - 19/05/2023 ),
+
+1. Created a new DockerHub Account for mantain the docker image repo. ( previously Used AWS ECR for the Image repo now we don't have a account so moved to Docker Hub )
+2. Created a Ubuntu Machine in VM virtualbox for the application build agent.
+3. Set the GitHub runner to the Ubuntu Machine to build a docker image of the application whenever the developer push the code to the Git repository.
+4. Create the script to build an application in the Build agent and that image directly pushed to the Docker Hub repo.
+5.  Modified the ArgoCD Config file from AWS configure to the Local Machine configuration.
+6. The Application Image successfully deployed to the cluster with new configuration and we can see the application details in the ArgoCD UI. ( Successfully Deployed the application, next I have to configure the CD part to automate the Deployment )
+7. Started Exploring the NuxtJS and GraphQL. Created one simple sample application. Next I have to create some dynamic applications with NuxtJS and GraphQL. 
+
+ 
+FYI, ( Hope you already know that we are creating all this in our local machine, so Machine getting little slow and stuck sometime and we can't run the multiple build so it took some extra time to achieve this ) 
+
+
+Update for 05/22/2023,
+
+1. Explored about NuxtJS and VueJS.
+ ( NuxtJS is a framework built on top of the VueJS Library. VueJS is the second most popular JS library. Before we started the Nuxt JS we need to get a little knowledge in VueJS. )
+( 2 hours )
+
+2. Start creating web applications with Vue JS.
+Reference link for Vue sample application guide: https://www.vuemastery.com/courses/intro-to-vue-3/intro-to-vue3
+( we have 11 Level for the tutorial, I have completed five levels )
+My GitHub Repo URl for this App:  
+https://www.vuemastery.com/courses/intro-to-vue-3/intro-to-vue3
+( 6 hours )
+
+3. Tomorrow I will complete this tutorial and start to create a Nuxt JS Application.
+
+
+Update for 05/23/2023,
+
+1. Created the Single page static application with VueJS. from this application I got knowledge in client side rendering, Attribute binding, conditional rendering, Event Handling, class & css binding, computed properties, Components, props and Forms. 
+The above list of processes is the basis to create a dynamic responsive website. ( from this application I can design the new responsive website.
+( 5 hours ) 
+2. Working to build this application with the Nuxt JS. Started the process on Nuxt JS. ( 2 hours )
+3. Attended KT on CI/CD Demo. ( 30 mins )
+4. Communication class ( 30 mins ) 
+I have attached the Application SS below 
+
+Update for 05/24/2023,
+
+1. Woring in the Nuxt JS application to update the applciation with the VueJS components and modules. Setup the Vue application with the NuxtJS framework. In this I got app configuration error. Currently working on this. ( 6 hours )
+2. Refered the youtube Tutorials for this application configuration. ( 2 hours )
+
+Update for 05/30/2023,
+
+1. I have configured the website page interaction to enable smooth navigation between pages. ( 4 hours )
+2. Currently working to add the GraphQL plugin to the existing project. ( 3 hours )
+3. Communication Class ( 1 hour ) 
+
+Update for 05/31/2023,
+
+1. Configured the GraphQLin the NuxtJS project. Created the GraphQL server locally and implemented the GraphQL schema in the components. Presented the data from the GraphQL server into the webpage. ( 5 hours )
+2. Compiled the NuxtJS project with the existing free GraphQL schema and passed the data to Webpage. ( 2 hours )
+3. Next Started working to connect PostgreSQL to the  GraphQL. ( 1 hour )
+
+update for 06/01/2023 & 06/02/2023,
+
+1. Created the Schemas in GraphQL to manage the Datas and store the sample data in the GraphQL server. 
+2. Then configured the GraphQL server in the Nuxt application and access the datas in the Schema. 
+3. Created sample form and get input from the site and update in the GraphQL server.
+4. Created the JS functions and vue components to access the different datas.
+5. Currently using array for the Data storage, next will connect the PostgreSQL for the backend. Already created tables in PostgreSQL.
+Next steps: DB Connection and quring data for the webpage 
+
+Update for 06/06/2023,
+
+1. Connected PostgreSQL to GraphQL server and accessed the datas from the database.
+2. Implement the data from GraphQL to the nuxtjs application.
+3. working on the two things,
+      a. Designing the web page to get input from the user and update in the database.
+      b. Implementing the logic and doing the CSS styling. .
+
+Thanks.
+
+Update for 07/08/2023 - 07/13/2023,
+
+1. Successfully implemented the Create, Read and Update function in "CRUD" function.
+2. Created initial project setup and configured the properties plugins ( GraphQL, Apolloserver, Bootstrap ).
+3. Created GraphQL API Server setup for EMS application.
+4. Updated the Applciation setup and GraphQL API server into our GitHub.
+5. Working on losully coupled structure for the project.
+6. Prepared the EMS applciation draft arhitructure. ( In-progress )
+7. Had a discussion with Preethi, Iyyammal, Maha, Umar and Sudharsun, Explained Project requirements and templates 
+
+
+Project Status Report Project: Event Management System 
+Duration: 6/26/2023 to 07/07/2023 
+
+Front-end Development:
+
+Accomplishments:
+
+1. Application header & Footer templates are developed and implemented into the application.
+2. Implemented google Signin Button to our application.
+3. Retrive the user details form the Google Signin.
+4. Desinged the API queries to pull and push the User details into our Database.
+5. Tested the API queries and application flow to the Database in Local test database.
+
+In-progress items:
+
+1. Homepage Banner component template development is under process.
+2. Application workflow functionality is under development.
+3. Exploring and working on Session management.
+4. Updateing the application to end-end integration of user login and user creation.
+
+Planned tasks for next-step:
+
+1. Implement User Validation functionalities, find out user type ( new user/exsisting user/admin user ).
+2. Create API query for Different type of user.
+3. To Devlop the Manual login and Registration Template and implement the respective functionalities.
+4. Create a templeate to present the Events.
+
+DevOps :
+
+Goals : 
+
+ Build a DevSecOps Pipeline for EMS Application
+ Maintain our Application in the Cloud Environment (AWS) 
+
+Accomplishments: 
+
+  Builded a secure DevSecOps Pipeline for EMS Frontend and EMS API Application
+  Builded and Shipped the applications as a Docker Image 
+  Successfully Deployed the API and Frontend Application in EKS Cluster
+
+In-progress items:
+
+  Deploy a Database in EKS and connect with the application
+  Connect the Entire Application in EKS
+  Configure Ingress to access the Application by End-User
+
+
+
+
+

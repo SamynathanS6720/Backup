@@ -1,0 +1,25 @@
+---Install Kubernaties Kubectl 
+curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+curl -LO "https://dl.k8s.io/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl.sha256"
+echo "$(cat kubectl.sha256)  kubectl" | sha256sum --check
+sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+kubectl version --client --output=yaml   
+
+
+---Install AWS CLI 
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install
+
+
+
+
+---crossplane tutorial
+
+https://www.google.com/search?q=how+to+monitor+cluster+using+crosspplane&rlz=1C1GCEO_enIN1013IN1013&oq=how+to+monitor+cluster+using+crosspplane&aqs=chrome..69i57j33i10i160l2j33i10i160i395l2.29359j1j15&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:a617a2e0,vid:uMC2QQfMctg
+
+
+https://gist.github.com/vfarcic/f0d35ef2260208b15ddd390007fdd552
+
+
+https://github.com/vfarcic/devops-toolkit-crossplane

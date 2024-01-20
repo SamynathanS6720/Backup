@@ -1,0 +1,78 @@
+Photo
+Date/Day
+Title
+Created by
+about organizar
+Location
+Agenda 
+About this event
+
+
+Extra feature :- User can add commands and questions with the event   
+
+
+
+
+
+mutli-facter authendication
+
+
+
+
+User Panel Features
+
+The user panels of a bus booking app includes- 
+
+Easy and secure registration using email 
+OTP verification secure in-app experience
+API integration to view all the important info about bus timing, location, etc
+Seat selection and Ticket booking
+Online payment option via different modes
+Sort and Filter option for user preference
+Pickup and Drop location selection option
+Multi Currency support for easier payment
+Multi Language support
+Graphical map showing booked and available seats
+Fare calculator for the journey from pickup to drop location
+Live Bus Tracking option
+Push Notifications of Ticket confirmation through SMS or email
+24/7 In-App Support for Passengers
+Request Cancellation of ticket and Refund option
+Feedback and Reviews Option for Customers
+Automated Bus Reminders 
+Discount offers and Loyalty points redemption option
+
+
+
+Admin Panel Features
+
+Quick registration and secure login
+Management of user/passenger Profiles
+Push Notifications
+User permission management
+Customer Relationship Management (CRM) integration
+Manage payment to operators, income and total revenue
+Payment gateway Integration
+Real-time Bus tracking
+Integration of Content Management System (CMS)
+Commissions Management
+Provide discounts and gift vouchers
+Email and SMS marketing management
+Admin dashboard Management
+Travel agency/ operator management
+
+
+Travel Agency Panel Features
+
+Easy and quick registration through email
+Secure login with OTP option
+Real time location tracker for bus
+Easy and efficient dashboard management
+Effective management of profiles
+Detailed view of total bookings, cancellations, refunds and total revenue for easy tracking.
+View passenger feedbacks and ratings
+User/Passenger Management
+Manage bus routes and tracks
+Total sales summary view on dashboard
+Manage ticket bookings and cancellations
+Real-time passenger onboard

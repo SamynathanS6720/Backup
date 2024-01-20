@@ -1,0 +1,53 @@
+docker ps – Lists all running containers
+docker ps all – Lists all docker containers, including stopped ones
+docker images – Lists all the docker images
+docker search [image-name] – searches for the images in the docker hub
+docker kill [containerid] – kills the container.
+docker stop [containerid] – pauses the container.
+docker restart [containerid] – Restarts the stopped container
+docker push [image name] – Pushes an image from an environment to the docker hub
+
+# run container
+docker container run -it -d --name [container name] -p port:port [image name]
+
+docker container run -it -d --name odoo -p 80:8069 odoo
+
+
+#docker login 
+winpty docker login $ACR_REGISTRY
+
+
+##docker to ECR to EKS
+
+docker push 443986840361.dkr.ecr.ap-southeast-2.amazonaws.com/my-repository:helloworld
+
+
+
+aws ecr create-repository \
+    --repository-name docker-repository \
+    --image-scanning-configuration scanOnPush=true \
+    --region ap-southeast-2
+
+
+docker tag helloworld:latest 443986840361.dkr.ecr.ap-southeast-2.amazonaws.com/hello-repository
+
+docker push helloworld
+
+
+sudo $( aws ecr describe-repositories --repository-names docker-repository --query 'repositories[0].repositoryUri' --output text )
+
+docker tag helloworld:latest 443986840361.dkr.ecr.ap-southeast-2.amazonaws.com/docker-repository:latest
+
+docker push 443986840361.dkr.ecr.ap-southeast-2.amazonaws.com/docker-repository:latest
+
+
+aws ecr batch-delete-image \
+     --repository-name docker-repository \
+     --image-ids imageTag=latest
+
+
+aws ecr batch-delete-image \
+     --repository-name docker-repository \
+     --image-ids imageDigest=sha256:af27b753ae84c734edc5eeaabe08d53ea587d3ccdd4cc66675ad843c431311e9
+
+

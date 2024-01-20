@@ -1,0 +1,30 @@
+##### aws vpc creation template
+aws cloudformation deploy --template-file https://github.com/SamynathanS6720/ArgoCD/blob/main/AWS-ECR-to-EKS-Integration/amazon-eks-vpc-private-subnets.yaml
+
+### EKS cluster creation
+eksctl create cluster -f https://github.com/SamynathanS6720/ArgoCD/blob/main/AWS-ECR-to-EKS-Integration/cluster.yaml
+
+### Create Deployment
+kubctl apply -f https://github.com/SamynathanS6720/ArgoCD/blob/main/AWS-ECR-to-EKS-Integration/deployment.yaml
+
+
+### Create service
+kubectl apply -f https://github.com/SamynathanS6720/ArgoCD/blob/main/AWS-ECR-to-EKS-Integration/service.yaml
+
+### created service
+kubectl get services
+
+
+### pods of our application are running
+kubectl get pods -o wide
+ 
+
+kubectl config get-contexts -o name
+
+
+argocd cluster add i-039e908df154b1033@EKS-Demo-Cluster.ap-southeast-2.eksctl.io
+ --name EKS-Demo-Cluster --insecure --server a04ee85531cd04e318f3f7569cd61866-498718088.ap-southeast-2.elb.amazonaws.com
+
+
+argocd cluster add EKS-Demo-Cluster --name EKS-Demo-Cluster --server  a04ee85531cd04e318f3f7569cd61866-498718088.ap-southeast-2.elb.amazonaws.com
+
