@@ -1,0 +1,20 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      python: 3.9
+    commands:
+      - apt-get update
+      - apt-get install -y python3-pip
+      - pip3 install dbt
+
+  build:
+    commands:
+      - dbt debug
+      - dbt run
+      - dbt test
+
+artifacts:
+  files:
+    - '**/*'
