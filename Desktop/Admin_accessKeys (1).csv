@@ -1,0 +1,42 @@
+﻿Access key ID,Secret access key
+AKIAWOX5NRMU2DUZGRM5,IWDqhAG5jLAs/HXYcoN6NUH9uuijEBdPitDdB7iu
+
+
+
+ 
+
+docker push 443986840361.dkr.ecr.ap-southeast-2.amazonaws.com/my-repository:helloworld
+
+
+
+aws ecr create-repository \
+    --repository-name docker-repository \
+    --image-scanning-configuration scanOnPush=true \
+    --region ap-southeast-2
+
+
+docker tag helloworld:latest 443986840361.dkr.ecr.ap-southeast-2.amazonaws.com/hello-repository
+
+docker push helloworld
+
+
+sudo $( aws ecr describe-repositories --repository-names docker-repository --query 'repositories[0].repositoryUri' --output text )
+
+docker tag helloworld:latest 443986840361.dkr.ecr.ap-southeast-2.amazonaws.com/docker-repository:latest
+
+docker push 443986840361.dkr.ecr.ap-southeast-2.amazonaws.com/docker-repository:latest
+
+
+aws ecr batch-delete-image \
+     --repository-name docker-repository \
+     --image-ids imageTag=latest
+
+
+aws ecr batch-delete-image \
+     --repository-name docker-repository \
+     --image-ids imageDigest=sha256:af27b753ae84c734edc5eeaabe08d53ea587d3ccdd4cc66675ad843c431311e9
+
+
+
+
+
